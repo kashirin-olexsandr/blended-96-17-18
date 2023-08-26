@@ -92,3 +92,56 @@ header .container {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+.hero-section {
+
+}
+
+.hero-section-main {
+	color: #E9E9E9;
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 55px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 1.2; /* 120% */
+	width: 493px;	
+	margin-bottom: 24px;
+}
+.hero-section-str {
+	color: #E9E9E9;
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.67; /* 167.273% */	
+	width: 459px;
+	margin-bottom: 32px;
+}
+.hero-section-str-red {
+   padding: 10px 28px;
+   color: var(--color-primary);
+   flex-shrink: 0;
+   border-radius: 5px;
+   background: #28A745;  
+   text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+ font-weight: 400;
+ line-height: 28.16px; /* 156.444% */
+}
+
+.hero-section .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.hero-section{
+	padding: 280px 0;
+}
+
